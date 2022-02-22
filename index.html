@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formm</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+             <h2>Create account</h2>
+             <p>Already have an Account? <a href="#">Click here</a></p>
+        </div>
+ 
+        <form id="form" class="form" action="welcome.html" method="GET">
+            <div class="form-control">
+                <label for="fullname" name="fullname">Full name</label>
+                <input type="text" name="fullname" id="txtUserName">
+                <small></small>
+            </div>
+ 
+            <div class="form-control">
+             <label for="Email" name="Email">Email address</label>
+             <input type="email" name="Email" id="txtEmail">
+             <small></small>
+         </div>
+ 
+         <div class="form-control">
+             <label for="password" name="password">Password</label>
+             <input type="password" name="password" id="txtPass">
+             <small></small>
+         </div>
+ 
+         <div class="form-control">
+             <label for="compwd" name="compwd">Confirm password</label>
+             <input type="password" name="compwd" id="txtConPwd">
+             <small></small>
+         </div>
+ 
+         <!-- <div class="form-control"> -->
+             <button id="button" type="submit">Register</button>
+         <!-- </div> -->
+        </form>
+       
+    </div>
+
+    <script src="style.js"></script>
+</body>
+</html>
