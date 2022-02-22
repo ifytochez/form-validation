@@ -88,3 +88,8 @@ function onError(input, message) {
     parent.classList.remove("success");
     parent.classList.add("error");
 };
+
+function isValidPassword(password) {
+  console.log("Password check conditions");
+  return true;
+}
